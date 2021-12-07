@@ -5,7 +5,7 @@ load dependency
 "Sweetbot": "file:../Sweetbot"
 */
 
-//% color="#660066" weight=80 icon="\uf1b9"
+//% color="#660066" weight=20 icon="\uf1b9" block="Sweetbot"
 namespace Sweetbot {
 
     const PCA9685_ADD = 0x40
