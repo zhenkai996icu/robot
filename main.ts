@@ -2,11 +2,11 @@
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from chengengyue
 load dependency
-"Sweetbot": "file:../Sweetbot"
+"OmniBit": "file:../OmniBit"
 */
 
 //% color="#ECA40D" weight=20 icon="\uf047"
-namespace Sweetbot {
+namespace OmniBit {
 
     const PCA9685_ADD = 0x40
     const MODE1 = 0x00
@@ -298,7 +298,7 @@ namespace Sweetbot {
         MotorRun(enMotors.M4, speedm4);
     }
 
-    //% blockId=Sweetbot_CarRun block="CarRun|%direction|speed %speed"
+    //% blockId=OmniBit_CarRun block="CarRun|%direction|speed %speed"
     //% weight=102
     //% blockGap=10
     //% group="CarControl"
@@ -350,7 +350,7 @@ namespace Sweetbot {
         }
     }
 
-    //% blockId=Sweetbot_Polygon block="Polygon|%polygon|speed %speed"
+    //% blockId=OmniBit_Polygon block="Polygon|%polygon|speed %speed"
     //% weight=101
     //% blockGap=10
     //% group="CarControl"
@@ -466,7 +466,7 @@ namespace Sweetbot {
     }
 
 
-    //% blockId=Sweetbot_CarDrift block="CarDrift|%direction|speed %speed"
+    //% blockId=OmniBit_CarDrift block="CarDrift|%direction|speed %speed"
     //% weight=100
     //% blockGap=10
     //% group="CarControl"
@@ -509,7 +509,7 @@ namespace Sweetbot {
         }
     }
 
-    //% blockId=Sweetbot_WideAngleDrift block="WideAngleDrift|%direction|speed_front %speed_front|speed_back %speed_back"
+    //% blockId=OmniBit_WideAngleDrift block="WideAngleDrift|%direction|speed_front %speed_front|speed_back %speed_back"
     //% weight=99
     //% blockGap=10
     //% group="CarControl"
@@ -545,7 +545,7 @@ namespace Sweetbot {
         }
     }
 
-    //% blockId=Sweetbot_Handle block="Handle|x %x|y %y|rotation %leftOrRight"
+    //% blockId=OmniBit_Handle block="Handle|x %x|y %y|rotation %leftOrRight"
     //% weight=98
     //% blockGap=10
     //% group="CarControl"
@@ -569,7 +569,7 @@ namespace Sweetbot {
         MecanumRun(x * linearSpeed, y * linearSpeed, -leftOrRight * angularSpeed);
     }
 
-    //% blockId=Sweetbot_RGB_Program block="RGB_Program"
+    //% blockId=OmniBit_RGB_Program block="RGB_Program"
     //% weight=97
     //% blockGap=10
     //% group="BoardFuntion"
@@ -581,7 +581,7 @@ namespace Sweetbot {
         return yahStrip;
     }
 
-    //% blockId=Sweetbot_Music block="Music|%index"
+    //% blockId=OmniBit_Music block="Music|%index"
     //% weight=96
     //% blockGap=10
     //% group="BoardFuntion"
@@ -611,7 +611,7 @@ namespace Sweetbot {
         }
     }
 
-    //% blockId=Sweetbot_Servo block="Servo(180°)|num %num|value %value"
+    //% blockId=OmniBit_Servo block="Servo(180°)|num %num|value %value"
     //% weight=95
     //% blockGap=20
     //% advanced=true
@@ -626,7 +626,7 @@ namespace Sweetbot {
 
     }
 
-    //% blockId=Sweetbot_Servo2 block="Servo(270°)|num %num|value %value"
+    //% blockId=OmniBit_Servo2 block="Servo(270°)|num %num|value %value"
     //% weight=94
     //% blockGap=20
     //% advanced=true
@@ -642,7 +642,7 @@ namespace Sweetbot {
 
     }
 
-    //% blockId=Sweetbot_Servo3 block="Servo(360°)|num %num|pos %pos|value %value"
+    //% blockId=OmniBit_Servo3 block="Servo(360°)|num %num|pos %pos|value %value"
     //% weight=93
     //% blockGap=20
     //% advanced=true
@@ -669,7 +669,7 @@ namespace Sweetbot {
         }
     }
 
-    //% blockId=Sweetbot_MotorRun block="Motor|%index|speed(-255~255) %speed"
+    //% blockId=OmniBit_MotorRun block="Motor|%index|speed(-255~255) %speed"
     //% weight=92
     //% blockGap=10
     //% group="BoardFuntion"
@@ -710,7 +710,7 @@ namespace Sweetbot {
         }
     }
 
-    //% blockId=Sweetbot_MotorStopAll block="Motor Stop All"
+    //% blockId=OmniBit_MotorStopAll block="Motor Stop All"
     //% weight=91
     //% blockGap=10
     //% group="BoardFuntion"
