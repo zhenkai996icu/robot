@@ -2,9 +2,11 @@
     "name": "OmniBit",
     "version": "1.0.5",
     "description": "Extension for Sweetbot V1.0.0",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:lzty634158/pxt-neopixel"
+        "neopixel": "github:lzty634158/pxt-neopixel",
+        "microphone": "*"
     },
     "files": [
         "README.md",
@@ -12,8 +14,13 @@
         "_locales/zh-cn/OmniBit-strings.json",
         "_locales/zh-tw/OmniBit-strings.json"
     ],
-    "testFiles": [
-    ],
+    "testFiles": [],
     "public": false,
-    "license": "MIT"
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ]
 }
