@@ -9,11 +9,9 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh-cn/Sweetbot-strings.json",
-        "_locales/zh-tw/Sweetbot-strings.json"
+        "_locales/zh-cn/Sweetbot-strings.json"
     ],
-    "testFiles": [
-    ],
+    "testFiles": [],
     "public": false,
     "license": "MIT"
 }
