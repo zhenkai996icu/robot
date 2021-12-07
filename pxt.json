@@ -1,6 +1,6 @@
 {
     "name": "OmniBit",
-    "version": "1.0.5",
+    "version": "1.1.1",
     "description": "Extension for Sweetbot V1.0.0",
     "license": "MIT",
     "dependencies": {
