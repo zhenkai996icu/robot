@@ -1,7 +1,5 @@
 /*
-Copyright (C): 2010-2019, Shenzhen Yahboom Tech
-modified from chengengyue
-load dependency
+2021-12 Beijing RobotSweet Tech
 "Sweetbot": "file:../Sweetbot"
 */
 
