@@ -194,8 +194,8 @@ namespace Sweetbot {
     }
 
     function stopMotor(index: number) {
-        setPwm(index, 0, 0);
-        setPwm(index + 1, 0, 0);
+        setPwm(index, 1, 1);
+        setPwm(index + 1, 1, 1);
     }
 
 
